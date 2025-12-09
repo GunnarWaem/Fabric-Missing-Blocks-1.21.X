@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "missingblocks",
+	"version": "${version}",
+	"name": "Missing Blocks",
+	"description": "Adds missing blocks that should have been in the game",
+	"authors": [
+		"Gsaurus"
+	],
+	"contact": {
+		"homepage": "https://github.com/GunnarWaem/",
+		"sources": "https://github.com/GunnarWaem/Fabric-Missing-Blocks-1.21.X"
+	},
+	"license": "MIT",
+	"icon": "assets/missingblocks/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.gsaurus.missingblocks.MissingBlocks"
+		],
+		"fabric-datagen": [
+			"net.gsaurus.missingblocks.MissingBlocksDataGenerator"
+		],
+		"client": [
+			"net.gsaurus.missingblocks.MissingBlocksClient"
+		]
+	},
+	"mixins": [
+		"missingblocks.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.1",
+		"minecraft": "~1.21.10",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
