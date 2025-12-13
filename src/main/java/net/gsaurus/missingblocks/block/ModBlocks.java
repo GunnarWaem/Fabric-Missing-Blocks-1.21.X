@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.gsaurus.missingblocks.MissingBlocks;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.WallBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -16,7 +17,10 @@ import net.minecraft.util.Identifier;
 import java.util.function.Function;
 
 public class ModBlocks {
-    private static Block registerBlock(String name, Function<AbstractBlock.Settings, Block> function) {
+    public static final Block STONE_WALL = registerBlock("stone_wall",
+            properties -> new WallBlock(properties.strength(2f).requiresTool()));
+
+    public static Block registerBlock(String name, Function<AbstractBlock.Settings, Block> function) {
         Block toRegister = function.apply(AbstractBlock.Settings.create().registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MissingBlocks.MOD_ID, name))));
         registerBlockItem(name, toRegister);
         return Registry.register(Registries.BLOCK, Identifier.of(MissingBlocks.MOD_ID, name), toRegister);

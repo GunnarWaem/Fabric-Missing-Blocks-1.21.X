@@ -1,0 +1,10 @@
+// 1.21.10	-999999999-01-01T00:00:00	Missing Blocks/Model Definitions
+31a0069c0644bd1fd203e2b12479707c88371d5a assets/minecraft/blockstates/stone.json
+bd721385e8bb8bf981c7a5e7a4d54ecf81cbcfc4 assets/minecraft/models/block/stone.json
+97317a58b19ce67c1e56c810204ad98d00020627 assets/minecraft/models/block/stone_mirrored.json
+f8d2052a9b0737657936ddd27615227f546b8c48 assets/missingblocks/blockstates/stone_wall.json
+77dbbe5e93472a3ff00549957944f2f555b83e65 assets/missingblocks/items/stone_wall.json
+cce1a5a2e52394840b1c742018f6f1b67868b6f0 assets/missingblocks/models/block/stone_wall_inventory.json
+34928999ae2788eea7a9046adf628c07292c173b assets/missingblocks/models/block/stone_wall_post.json
+1519a7670a4d4dc84774d0224d558017282c148f assets/missingblocks/models/block/stone_wall_side.json
+16e6192019ed46f494a845f91fe8333ea5a3073f assets/missingblocks/models/block/stone_wall_side_tall.json

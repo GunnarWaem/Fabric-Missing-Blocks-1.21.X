@@ -2,6 +2,7 @@ package net.gsaurus.missingblocks.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
+import net.gsaurus.missingblocks.block.ModBlocks;
 import net.minecraft.registry.RegistryWrapper;
 
 import java.util.concurrent.CompletableFuture;
@@ -13,6 +14,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
-
+        valueLookupBuilder(net.minecraft.registry.tag.ItemTags.WALLS)
+                .add(ModBlocks.STONE_WALL.asItem());
     }
 }
