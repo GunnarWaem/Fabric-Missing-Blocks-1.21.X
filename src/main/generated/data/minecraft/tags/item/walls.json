@@ -1,5 +1,14 @@
 {
   "values": [
-    "missingblocks:stone_wall"
+    "missingblocks:stone_wall",
+    "missingblocks:polished_granite_wall",
+    "missingblocks:polished_andesite_wall",
+    "missingblocks:polished_diorite_wall",
+    "missingblocks:smooth_sandstone_wall",
+    "missingblocks:smooth_red_sandstone_wall",
+    "missingblocks:prismarine_brick_wall",
+    "missingblocks:dark_prismarine_wall",
+    "missingblocks:purpur_wall",
+    "missingblocks:smooth_quartz_wall"
   ]
 }

@@ -17,6 +17,15 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.missingblocks.missing_blocks"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.STONE_WALL);
+                        entries.add(ModBlocks.POLISHED_GRANITE_WALL);
+                        entries.add(ModBlocks.POLISHED_ANDESITE_WALL);
+                        entries.add(ModBlocks.POLISHED_DIORITE_WALL);
+                        entries.add(ModBlocks.SMOOTH_SANDSTONE_WALL);
+                        entries.add(ModBlocks.SMOOTH_RED_SANDSTONE_WALL);
+                        entries.add(ModBlocks.PRISMARINE_BRICK_WALL);
+                        entries.add(ModBlocks.DARK_PRISMARINE_WALL);
+                        entries.add(ModBlocks.PURPUR_WALL);
+                        entries.add(ModBlocks.SMOOTH_QUARTZ_WALL);
                     }).build());
 
     public static void registerItemGroups() {

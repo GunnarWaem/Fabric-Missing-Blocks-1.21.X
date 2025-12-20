@@ -1,5 +1,15 @@
 {
   "block.missingblocks.stone_wall": "Stone Wall",
+  "block.missingblocks.polished_granite_wall": "Polished Granite Wall",
+  "block.missingblocks.polished_andesite_wall": "Polished Andesite Wall",
+  "block.missingblocks.polished_diorite_wall": "Polished Diorite Wall",
+  "block.missingblocks.smooth_sandstone_wall": "Smooth Sandstone Wall",
+  "block.missingblocks.smooth_red_sandstone_wall": "Smooth Red Sandstone Wall",
+  "block.missingblocks.prismarine_brick_wall": "Prismarine Brick Wall",
+  "block.missingblocks.dark_prismarine_wall": "Dark Prismarine Wall",
+  "block.missingblocks.purpur_wall": "Purpur Wall",
+  "block.missingblocks.smooth_quartz_wall": "Smooth Quartz Wall",
+
 
   "itemgroup.missingblocks.missing_blocks": "Missing Blocks"
 }
